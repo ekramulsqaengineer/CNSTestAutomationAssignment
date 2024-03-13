@@ -12,3 +12,4 @@ Short description of your project.
 1. Clone the repository.
 2. Build the project using Maven:
 3.  Run the application:
+4. change image location
