@@ -30,7 +30,10 @@ public class Base {
 		
 		// Click the first job id
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//a[normalize-space()='14/2023']")).click();	
+		driver.findElement(By.xpath("//select[@name='circularMst_length']")).sendKeys("25");
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//a[normalize-space()='42/2024']")).click();
+	//	driver.findElement(By.xpath("//a[normalize-space()='14/2023']")).click();	
 		// Switch back to the original window/tab
 		Thread.sleep(2000);
 		Set<String> windowHandles = driver.getWindowHandles();
